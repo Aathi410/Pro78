@@ -171,6 +171,9 @@ export default class SignUpAndLoginScreen extends React.Component{
     render(){
         return(
             <View style={styles.container}>
+              {
+                this.showModal()
+              }
               
                 <Text style={styles.title}>Barter App</Text>
             
